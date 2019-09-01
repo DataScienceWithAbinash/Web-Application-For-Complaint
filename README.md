@@ -56,7 +56,7 @@ B.	Checking the status
 ## Step-wise solution:
 
 Step 1:
-Create a folder in c drive and Copy all the files to that folder.
+Create a folder in c drive and Copy all the files to that folder in a well-arranged manner. Follow the "Intruction.docx"..
 
 Step 2:
 Open file “init_db.py “in PyCharm, right-click and run which will automatically create a database “mydb.db”
