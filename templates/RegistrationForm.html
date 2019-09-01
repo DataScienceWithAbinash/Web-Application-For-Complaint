@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/register.css') }}">
+</head>
+    <body style="background-image: url('{{ url_for('static', filename = 'images/b4.jpg') }}')">
+        
+        <div class="register">
+            <em><h1>Complaint Registration Form</h1></em>
+        <form method="GET" id="register" action="/addrec">
+            <label>Name:</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <br><br>
+            <label>Email:</label><br>
+            <input type="Email" name="email" id="name" placeholder="Enter your email">
+            <br><br>
+            <label>Delivery consignment / Invoice number:</label><br>
+            <input type="text" name="cn" id="name" placeholder="Enter Delivery consignment or invoice number">
+            <br><br>
+            <label>Consignment / Invoice date:</label><br>
+            <input type="date" name="date" id="name" placeholder="Enter consignment date or invoive date">
+            <br><br>
+            <label>Product name:</label><br>
+            <input type="text" name="pn" id="name" placeholder="Enter product name">
+            <br><br>
+            <label>Nature of complaints:</label><br>
+            <input type="text" name="noc" id="name" placeholder="Enter nature of complaints ">
+            <br><br>
+            <center><input type="submit" value="Submit" id="sub"></center>
+        </form>
+        </div>
+
+    
+</body>
+</html>
