@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Retrieve Form</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/retrieve.css') }}">
+</head>
+<body style="background-image: url('{{ url_for('static', filename = 'images/b4.jpg') }}')">
+	<h1>C H E C K  -   S T A T U S</h1>
+  <form action = "/showdetails" method="GET">
+  	<br><br>
+    <p>Reference number:
+    <input type = "number" id="num" size=50 name="Enter Reference number"/>
+    <input type = "submit" value="Check" id="sub" />
+    </p>
+    </form>
+</body>
+</html>

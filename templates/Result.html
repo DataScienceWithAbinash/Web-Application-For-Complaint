@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/result.css')}}">
+</head>
+<body>
+<center>
+    <table border="1" cellspacing="0">
+        <tr>
+            {% for i in rows %}
+            <th colspan="7">Your Details</th>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Invoice no </th>
+                <th>Invoice date</th>
+                <th>Product name</th>
+                <th>Nature of complaint</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>{{ i[0] }}</td>
+                <td>{{ i[1] }}</td>
+                <td>{{ i[2] }}</td>
+                <td>{{ i[3] }}</td>
+                <td>{{ i[4] }}</td>
+                <td>{{ i[5] }}</td>
+                <td>{{ i[6] }}</td>
+            {% else %}
+                <td>Oops, We could not find any information,Please check your Reference number. Thank you.....</td>
+            {% endfor %}
+            </tr>
+        </tr>
+    </table>
+    <br><br>
+    <button><a href="/">HOME</a></button>
+    
+</center>
+
+</body>
+</html>
