@@ -27,19 +27,22 @@ A distribution logistics business unit is associated with various processes and 
 
 A.	Submission of complaints
 
-1.	Take the required inputs from the customer
-a)	Name of the customer
-b)	Delivery consignment/invoice reference
-c)	Invoice/Consignment date
-d)	Product name
-e)	Nature of the complaint
+1.Take the required inputs from the customer
+	
+	Name of the customer
+	Delivery consignment/invoice reference
+	Invoice/Consignment date
+	Product name 
+	Nature of the complaint
+
 2.	A unique reference number is to be generated and given to the customer after submission
 
 B.	Checking the status 
 
-
 1.	The required input from the customer
-                  Complaint reference number or invoice reference number 
+                 
+		 Complaint reference number or invoice reference number 
+
 2.	 The relevant updates are to be displayed after submission of the reference number
 
 ## Required software’s:
@@ -53,7 +56,7 @@ B.	Checking the status
 ## Step-wise solution:
 
 Step 1:
-Copy all the files to the ‘C’ drive in a well-arranged manner
+Create a folder in c drive and Copy all the files to that folder.
 
 Step 2:
 Open file “init_db.py “in PyCharm, right-click and run which will automatically create a database “mydb.db”
