@@ -1,0 +1,16 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(''{{ url_for('static', filename = 'images/b4.jpg') }}'');
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	margin-top: 270px
+}
+h1{
+	font-size: 30px;
+}
+h3{
+	color: darkgray;
+}

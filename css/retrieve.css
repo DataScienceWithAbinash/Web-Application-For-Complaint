@@ -1,0 +1,26 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(C:/Users/abina/PycharmProjects/Class_project/static/images/b4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+}
+h1{
+	text-align: center;
+	margin-top: 250px;
+	font-style: italic;
+}
+p{
+	text-align: center;
+	font-size: 25px;
+}
+#num{
+	width: 280px;
+	height: 25px;
+}
+#sub{
+	width: 100px;
+    height: 25px;
+}
