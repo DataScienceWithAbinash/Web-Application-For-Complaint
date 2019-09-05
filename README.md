@@ -1,5 +1,5 @@
 # Web-Application-For-Complaints
-A web application which will helps to manage all the complaints in a single database.
+A web application that will help to manage all the complaints in a single database.
 
 
 ## Why is it required?
